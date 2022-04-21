@@ -3,8 +3,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const multer =require('multer');
 const pesapal = require('pesapal')({
-    consumerKey: 'ff9Gf3Kn7qHhqDyVCnMfTLfpt/WAQ1bW',
-    consumerSecret: 'O5eCh/mjBiFxNCrVru1wAfCrVQc=',
+    consumerKey: '',
+    consumerSecret: '',
     testing: true,
 });
 const fs = require('fs-extra');
